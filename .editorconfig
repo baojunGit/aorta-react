@@ -1,0 +1,27 @@
+# https://editorconfig.org
+
+# 表示停止在父级目录中寻找 .editorconfig 文件
+root = true
+
+# 对所有文件生效配置
+[*]
+# 定义文件字符编码为 UTF-8
+charset = utf-8
+
+# 定义缩进风格为使用空格
+indent_style = space
+
+# 定义缩进大小为 2 个空格
+indent_size = 2
+
+# 定义换行符类型为 LF（Unix/Linux 风格）
+end_of_line = lf
+
+# 删除行尾的空白字符
+trim_trailing_whitespace = true
+
+# 在文件末尾插入一个空行
+insert_final_newline = true
+
+
+
