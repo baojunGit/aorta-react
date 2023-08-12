@@ -122,11 +122,17 @@ aorta-react
 ├── public (静态文件，不参与打包)
 |   ├── index.html（public里所有文件都是为了它而服务）
 ├── src（源代码文件夹）
+|   ├── api（封装后端接口请求）
+│   ├── components (放置公共组件)
+|   ├── config（系统配置：环境变量）
+|   ├── hook（自定义hook）
+|   ├── layout（存放布局组件）
+|   ├── router（路由封装）
+|   ├── types（公共类型定义）
+|   ├── utils（工具方法）
+|   ├── views（页面）
 |   ├── index.tsx（入口文件）
 │   ├── App.tsx（描述app）
-│   └── components (放置全局组件)
-│   └── router (react-router配置目录)
-│       ├── index.tsx (路由统一管理的配置文件)
 │   └── store (redux配置目录)
 │       ├── index.tsx (创建store)
 │       ├── features (创建切片目录，文件格式xxxSlice.ts)
