@@ -9,7 +9,7 @@ export default defineConfig({
 	publicDir: 'public', // 静态文件目录
 	resolve: {
 		alias: {
-			'@': resolve(__dirname, './src') // @代替src路径
+			'@': resolve(__dirname, './src') // @代替src路径，还要在tsconfig.json进行paths配置目录映射
 		}
 	},
 	plugins: [react()]

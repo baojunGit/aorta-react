@@ -123,11 +123,12 @@ aorta-react
 |   ├── index.html（public里所有文件都是为了它而服务）
 ├── src（源代码文件夹）
 |   ├── api（封装后端接口请求）
-│   ├── components (放置公共组件)
+│   ├── components (放置全局组件)
 |   ├── config（系统配置：环境变量）
 |   ├── hook（自定义hook）
 |   ├── layout（存放布局组件）
 |   ├── router（路由封装）
+|   ├── styles（全局样式设置）
 |   ├── types（公共类型定义）
 |   ├── utils（工具方法）
 |   ├── views（页面）
